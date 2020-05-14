@@ -49,7 +49,9 @@ footer:
   since: 2020
 
 # Markdown
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 kramdown:
   input: GFM
 # 代码高亮 使用rouge
