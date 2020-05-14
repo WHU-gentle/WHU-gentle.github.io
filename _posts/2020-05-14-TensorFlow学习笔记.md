@@ -4,7 +4,7 @@ title:  "初学TensorFlow的一些记录"
 date:   2020-5-14 15:43:58
 tags: TensorFlow
 color: rgb(255,90,90)
-subtitle: 'Welcome to Jekyll!'
+#subtitle: 'Welcome to Jekyll!'
 ---
 # 函数篇
 
