@@ -1,3 +1,6 @@
+---
+layout:default
+---
 # 函数篇
 
 - ##### tf.argmax(input, axis)
