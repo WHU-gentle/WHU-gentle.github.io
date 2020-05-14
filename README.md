@@ -1,1 +1,4 @@
-个人博客尝试
+{{ page.title }}
+{% for post in site.posts %}
+　　　　{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
